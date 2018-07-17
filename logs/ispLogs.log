@@ -1,0 +1,3 @@
+2018-03-13 20:18:16,016 com.informatica.isp.domainrepositoryservice.impl.PRSDomainRepositoryServiceImpl init INFO: [localhost-startStop-1] Domain Repository Service init method is called.
+2018-03-13 20:18:22,022 com.informatica.repository.persistence.database.DDLGenRepositoryConfigurationManagerImpl getCustomProperties WARNING: [localhost-startStop-1] Exception occured while fetching Custom Property.null
+2018-03-13 20:18:22,022 com.informatica.repository.persistence.database.DDLGenRepositoryConfigurationManagerImpl fetchUserSpecifiedBasicJpaBootstrapConfiguration INFO: [localhost-startStop-1] Hibernate Config Property ['hibernate.c3p0.idle_test_period'] is either not specified in Custom Properties or not given correct value, hence using default value ['0'].

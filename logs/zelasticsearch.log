@@ -1,0 +1,36 @@
+[2018-07-07T17:31:43,559][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-07-07T17:31:44,781][INFO ][o.e.e.NodeEnvironment    ] [LKRaZEt] using [1] data paths, mounts [[New Volume (D:)]], net usable_space [16.8gb], net total_space [48.8gb], types [NTFS]
+[2018-07-07T17:31:44,783][INFO ][o.e.e.NodeEnvironment    ] [LKRaZEt] heap size [998.4mb], compressed ordinary object pointers [unknown]
+[2018-07-07T17:31:44,791][INFO ][o.e.n.Node               ] node name [LKRaZEt] derived from node ID [LKRaZEtlTbWw5t5-3QTBjA]; set [node.name] to override
+[2018-07-07T17:31:44,793][INFO ][o.e.n.Node               ] version[6.2.4], pid[3436], build[ccec39f/2018-04-12T20:37:28.497551Z], OS[Windows 7/6.1/x86], JVM[Oracle Corporation/Java HotSpot(TM) Client VM/1.8.0_161/25.161-b12]
+[2018-07-07T17:31:44,794][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\Aaradhya\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Delasticsearch, -Des.path.home=D:\elk, -Des.path.conf=D:\elk\config]
+[2018-07-07T17:31:47,315][INFO ][o.e.p.PluginsService     ] [LKRaZEt] loaded module [aggs-matrix-stats]
+[2018-07-07T17:31:47,317][INFO ][o.e.p.PluginsService     ] [LKRaZEt] loaded module [analysis-common]
+[2018-07-07T17:31:47,318][INFO ][o.e.p.PluginsService     ] [LKRaZEt] loaded module [ingest-common]
+[2018-07-07T17:31:47,320][INFO ][o.e.p.PluginsService     ] [LKRaZEt] loaded module [lang-expression]
+[2018-07-07T17:31:47,321][INFO ][o.e.p.PluginsService     ] [LKRaZEt] loaded module [lang-mustache]
+[2018-07-07T17:31:47,323][INFO ][o.e.p.PluginsService     ] [LKRaZEt] loaded module [lang-painless]
+[2018-07-07T17:31:47,324][INFO ][o.e.p.PluginsService     ] [LKRaZEt] loaded module [mapper-extras]
+[2018-07-07T17:31:47,326][INFO ][o.e.p.PluginsService     ] [LKRaZEt] loaded module [parent-join]
+[2018-07-07T17:31:47,327][INFO ][o.e.p.PluginsService     ] [LKRaZEt] loaded module [percolator]
+[2018-07-07T17:31:47,329][INFO ][o.e.p.PluginsService     ] [LKRaZEt] loaded module [rank-eval]
+[2018-07-07T17:31:47,330][INFO ][o.e.p.PluginsService     ] [LKRaZEt] loaded module [reindex]
+[2018-07-07T17:31:47,332][INFO ][o.e.p.PluginsService     ] [LKRaZEt] loaded module [repository-url]
+[2018-07-07T17:31:47,334][INFO ][o.e.p.PluginsService     ] [LKRaZEt] loaded module [transport-netty4]
+[2018-07-07T17:31:47,336][INFO ][o.e.p.PluginsService     ] [LKRaZEt] loaded module [tribe]
+[2018-07-07T17:31:47,338][INFO ][o.e.p.PluginsService     ] [LKRaZEt] no plugins loaded
+[2018-07-07T17:31:56,434][INFO ][o.e.d.DiscoveryModule    ] [LKRaZEt] using discovery type [zen]
+[2018-07-07T17:31:57,802][INFO ][o.e.n.Node               ] initialized
+[2018-07-07T17:31:57,803][INFO ][o.e.n.Node               ] [LKRaZEt] starting ...
+[2018-07-07T17:31:59,169][INFO ][o.e.t.TransportService   ] [LKRaZEt] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-07-07T17:31:59,224][WARN ][o.e.b.BootstrapChecks    ] [LKRaZEt] JVM is using the client VM [Java HotSpot(TM) Client VM] but should be using a server VM for the best performance
+[2018-07-07T17:32:02,456][INFO ][o.e.c.s.MasterService    ] [LKRaZEt] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {LKRaZEt}{LKRaZEtlTbWw5t5-3QTBjA}{PdkK-FKKSx6TcH3Kd1iofg}{127.0.0.1}{127.0.0.1:9300}
+[2018-07-07T17:32:02,470][INFO ][o.e.c.s.ClusterApplierService] [LKRaZEt] new_master {LKRaZEt}{LKRaZEtlTbWw5t5-3QTBjA}{PdkK-FKKSx6TcH3Kd1iofg}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {LKRaZEt}{LKRaZEtlTbWw5t5-3QTBjA}{PdkK-FKKSx6TcH3Kd1iofg}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-07-07T17:32:02,609][INFO ][o.e.g.GatewayService     ] [LKRaZEt] recovered [0] indices into cluster_state
+[2018-07-07T17:32:03,288][INFO ][o.e.h.n.Netty4HttpServerTransport] [LKRaZEt] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-07-07T17:32:03,288][INFO ][o.e.n.Node               ] [LKRaZEt] started
+[2018-07-07T17:51:46,902][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2018-07-07T17:51:46,904][INFO ][o.e.n.Node               ] [LKRaZEt] stopping ...
+[2018-07-07T17:51:47,001][INFO ][o.e.n.Node               ] [LKRaZEt] stopped
+[2018-07-07T17:51:47,002][INFO ][o.e.n.Node               ] [LKRaZEt] closing ...
+[2018-07-07T17:51:47,052][INFO ][o.e.n.Node               ] [LKRaZEt] closed

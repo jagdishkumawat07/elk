@@ -1,0 +1,16 @@
+2018-03-13 20:18:59,213 ERROR [Monitor Guaranteed Message Logger Thread] [CCM_10322] While logging messages to the Log Service, the following error occurred: [[DOM_10022] The master gateway node for the domain is not available. Electing another master gateway. Wait for the election of the master gateway node to  complete. If the problem persists, verify that the master gateway node is running.]. Fix the errors written to the node.log file.
+com.informatica.isp.domainservice.exceptions.ISPMasterNotAvailableException: [DOM_10022] The master gateway node for the domain is not available. Electing another master gateway. Wait for the election of the master gateway node to  complete. If the problem persists, verify that the master gateway node is running.
+	at com.informatica.isp.domainservice.DomainServiceImpl.nameServiceLookup(DomainServiceImpl.java:3659)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.informatica.pcsf.servicesframework.service.impl.ServiceRequestHandler$MethodInvokeRequestHandler.getMethodResult(ServiceRequestHandler.java:704)
+	at com.informatica.pcsf.servicesframework.service.impl.ServiceRequestHandler$MethodInvokeRequestHandler.handle(ServiceRequestHandler.java:526)
+	at com.informatica.pcsf.servicesframework.service.impl.ServiceRequestHandler.handleMethodInvokeRequest(ServiceRequestHandler.java:214)
+	at com.informatica.pcsf.servicesframework.service.impl.ServiceRequestHandler.onReceiveRequest(ServiceRequestHandler.java:133)
+	at com.informatica.pcsf.datatransport.impl.RequestHandlerImpl.receiveMSG(RequestHandlerImpl.java:39)
+	at org.beepcore.beep.core.ChannelImpl.run(ChannelImpl.java:386)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)

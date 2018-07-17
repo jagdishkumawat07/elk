@@ -1,0 +1,3 @@
+2018-03-13 20:17:40,886 INFO  [main] [PR_10000] [2018-Mar-13 20:17:40.844] Plugin Registry initializing
+2018-03-13 20:17:40,887 INFO  [main] [PR_10001] [2018-Mar-13 20:17:40.886] Plugin Registry Initialization Completed. List of plugins : []
+2018-03-13 20:17:41,145 INFO  [main] [PR_10002] [2018-Mar-13 20:17:41.145] Plugin Registry : new plugin added : plugin id = [com.informatica.adapter.amazonredshift], type = [com.informatica.reg.plugin.Feature]

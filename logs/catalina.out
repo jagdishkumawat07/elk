@@ -1,0 +1,7 @@
+2018-03-13 20:17:57,057   : [main] with startup options :  -ea -Djava.security.krb5.conf=/app/informatica/PowerCenter102/services/shared/security/krb5.conf -Djava.awt.headless=true -Duser.dir=/app/informatica/PowerCenter102/tomcat/bin -DINFA_PLUGINS_HOME=/app/informatica/PowerCenter102/plugins -DINFA_HOME=/app/informatica/PowerCenter102 -Dinfa.useNonPooledUUMAuthenticator -DINFA_DOMAINS_FILE=/app/informatica/PowerCenter102/domains.infa -Djava.endorsed.dirs=/app/informatica/PowerCenter102/tomcat/endorsed -Dcatalina.base=/app/informatica/PowerCenter102/tomcat -Dcatalina.home=/app/informatica/PowerCenter102/tomcat -Djava.io.tmpdir=/app/informatica/PowerCenter102/tomcat/temp -Djava.util.logging.config.file=/app/informatica/PowerCenter102/tomcat/bin/isplogging.properties -Xmx512m -XX:GCTimeRatio=9 -XX:MaxMetaspaceSize=256m -XX:+HeapDumpOnOutOfMemoryError
+2018-03-13 20:18:39,039   : [localhost-startStop-1] 2018-Mar-13 20:18:39.234 Starting Tomcat on HTTP port [6005].
+2018-03-13 20:18:39,039   : [localhost-startStop-1] [2018-Mar-13 20:18:39.397] Domain service init method is called.
+2018-03-13 20:18:58,058   : [Domain Monitor] [2018-Mar-13 20:18:58.312] Enabling master Core services.
+2018-03-13 20:18:58,058   : [Domain Monitor] [2018-Mar-13 20:18:58.358] Domain Configuration service init method is called.
+2018-03-13 20:18:58,058   : [Domain Monitor] [2018-Mar-13 20:18:58.949] Log service init method is called.
+2018-03-13 20:18:59,059   : [Domain Monitor] [2018-Mar-13 20:18:59.775] User Management service init method is called.
